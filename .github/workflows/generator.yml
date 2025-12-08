@@ -9,6 +9,9 @@ on:
     types: [started]
   schedule:
     - cron: '*/5 * * * *'
+  
+permissions:
+  contents: write
 
 jobs:
   build:
